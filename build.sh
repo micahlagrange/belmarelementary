@@ -15,4 +15,4 @@ rb middleman build
 
 # Copy the files to google bucket
 cd ${BUILD_DIR}
-gsutil cp ./* gs://belmiddleman
+gsutil -m cp -r ./* gs://belmiddleman
