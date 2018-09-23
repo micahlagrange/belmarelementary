@@ -12,9 +12,12 @@ title: Welcome to Middleman
   <path class="middleman-logo__bottom-right-bar" fill="#fff" d="M200 340l200-40v-20l-200 30z"/>
 </svg>
 
-<h1>
-  Middleman is Running
-</h1>
+<h1>Welcome</h1>
+<ul>
+  <% 5.times do |num| %>
+    <li>Count <%= num %></li>
+  <% end %>
+</ul>
 
 <%= link_to(
   "Read Documentation",
