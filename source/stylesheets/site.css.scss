@@ -22,3 +22,19 @@ a {
   margin-bottom: 1rem;
   width: 10rem;
 }
+
+#top-banner-image {
+  background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("http://p12cdn4static.sharpschool.com/userfiles/servers/server_831542/image/01_belmar_elementary_main_img.jpg");
+
+  background-repeat: no-repeat, repeat;
+  background-color: #cccccc;
+  background-size: cover;
+}
+
+#top-banner-text {
+  color: black !important;
+}
+
+#text-on-dark-bg {
+  color: white;
+}
